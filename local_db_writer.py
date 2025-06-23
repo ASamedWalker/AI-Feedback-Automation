@@ -11,11 +11,11 @@ CLASSIFIED_FEEDBACK_TOPIC_NAME = "classified-feedback-topics"
 # --- Cloud SQL Database Configuration ---
 # These are your Cloud SQL instance's Public IP, user, password, etc.
 # Make sure your local machine's IP is authorized in Cloud SQL!
-DB_HOST = "34.121.72.3" # <--- REPLACE WITH YOUR CLOUD SQL PUBLIC IP
-DB_USER = "feedback_user"
-DB_PASSWORD = "123" # <--- REPLACE WITH YOUR DB USER PASSWORD
-DB_NAME = "feedback_db"
-DB_PORT = "5432"
+DB_HOST = "" # <--- REPLACE WITH YOUR CLOUD SQL PUBLIC IP
+DB_USER = ""
+DB_PASSWORD = "" # <--- REPLACE WITH YOUR DB USER PASSWORD
+DB_NAME = ""
+DB_PORT = ""
 
 # Pub/Sub subscriber client
 subscriber = pubsub_v1.SubscriberClient()
